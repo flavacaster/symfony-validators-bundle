@@ -2,5 +2,5 @@ services:
     _defaults:
         autowire: true
         autoconfigure: true
-    N7\SymfonyValidatorsBundle\:
+    Flacaster\SymfonyValidatorsBundle\:
         resource: '../../src/'
