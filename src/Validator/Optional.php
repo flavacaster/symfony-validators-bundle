@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace N7\SymfonyValidatorsBundle\Validator;
+namespace Flavacaster\SymfonyValidatorsBundle\Validator;
 
 use Symfony\Component\Validator\Constraints\Optional as BaseOptional;
 

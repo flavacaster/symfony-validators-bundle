@@ -1,20 +1,24 @@
 {
-    "name": "n7/symfony-validators-bundle",
+    "name": "flavacaster/symfony-validators-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vladimir Gluhov",
-            "email": "nope7777@gmail.com"
+            "name": "Flavacaster",
+            "email": "hoaxer.yacht0r@icloud.com"
         }
     ],
     "require": {
-        "php": "^7.0|^8.0",
-        "doctrine/annotations": "*"
+        "php": "^8.1",
+        "doctrine/annotations": "*",
+        "symfony/validator": "^6.0",
+        "symfony/http-kernel": "^6.0",
+        "symfony/config": "^6.0",
+        "symfony/dependency-injection": "^6.0"
     },
     "autoload": {
         "psr-4": {
-            "N7\\SymfonyValidatorsBundle\\": "src"
+            "Flavacaster\\SymfonyValidatorsBundle\\": "src"
         }
     }
 }

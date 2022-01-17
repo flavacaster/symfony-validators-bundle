@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace N7\SymfonyValidatorsBundle\Service;
+namespace Flavacaster\SymfonyValidatorsBundle\Service;
 
 use Doctrine\Common\Annotations\Reader;
-use N7\SymfonyValidatorsBundle\Options\AllowExtraFields;
-use N7\SymfonyValidatorsBundle\Options\AllowMissingFields;
+use Flavacaster\SymfonyValidatorsBundle\Options\AllowExtraFields;
+use Flavacaster\SymfonyValidatorsBundle\Options\AllowMissingFields;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\Validator\Mapping\PropertyMetadataInterface;
 use Symfony\Component\Validator\Constraints\Collection;
