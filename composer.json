@@ -1,5 +1,6 @@
 {
     "name": "flavacaster/symfony-validators-bundle",
+    "description": "symfony validators bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
